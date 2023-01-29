@@ -10,9 +10,9 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "16832093"))
 API_HASH = getenv("API_HASH", "c27c9eb522e6c85dd02e542fd7606b4f")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5564624709:AAH5N-_BCROP-sUIBB4Bee4wCF-9KIEqwSs")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Ziddiboy:ziddiboy1760@cluster0.qim8l.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001715514181"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "aina music bot")
 
