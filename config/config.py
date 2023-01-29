@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "16832093"))
 API_HASH = getenv("API_HASH", "c27c9eb522e6c85dd02e542fd7606b4f")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5564624709:AAH5N-_BCROP-sUIBB4Bee4wCF-9KIEqwSs")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Ziddiboy:ziddiboy1760@cluster0.qim8l.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001715514181"))
@@ -21,11 +21,11 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "5140509190").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TheAnonymous2005/AnonXMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/TheBotsUpdate")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "@TheBotsUpdate")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TheBotsUpdate")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/friends_forever_581")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
