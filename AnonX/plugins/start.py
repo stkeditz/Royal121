@@ -39,7 +39,7 @@ async def start_comm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgUAAxkBAAIjVmKPYTFByKZlCo9d8mUv8QVAJEw7AAL9BQACiy14VGoQxOCDfE1KJAQ")
+            await message.reply_sticker("CAACAgQAAx0CbQLuWAACg-hkKSsXHz2o_yAsAAG76qXiu-nCG1oAAiQNAAI7-lhTvahq-ENnhg0eBA")
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
                        caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
@@ -140,7 +140,7 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-😲**ᴛʀᴀᴄᴋ ɪɴғᴏʀɴᴀᴛɪᴏɴ**😲
+😲**ᴛʀᴀᴄᴋ ɪɴғᴏʀɴᴀᴛɪᴏɴ ʙʏ ʏᴀᴍᴀʀᴀᴊ**😲
 
 📌 **ᴛɪᴛʟᴇ:** {title}
 
@@ -150,6 +150,10 @@ async def start_comm(client, message: Message, _):
 🎥 **ᴄʜᴀɴɴᴇʟ:** {channel}
 📎 **ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ:** [ᴠɪsɪᴛ ᴄʜᴀɴɴᴇʟ]({channellink})
 🔗 **ʟɪɴᴋ:** [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})
+
+ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴄᴏɴᴛᴀᴄᴛ ʜᴇʀᴇ 👇👇👇
+
+|| ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ [𝐘𝐚𝐦𝐫𝐚𝐉](https://t.me/MR_YAMRAJ_XD) 🥀 ||
 
 💖 sᴇᴀʀᴄʜ ᴩᴏᴡᴇʀᴇᴅ ʙʏ {config.MUSIC_BOT_NAME}"""
             key = InlineKeyboardMarkup(
@@ -188,7 +192,7 @@ async def start_comm(client, message: Message, _):
         out = private_panel(_, app.username, OWNER)
         if config.START_IMG_URL:
             try:
-                await message.reply_sticker("CAACAgUAAxkBAAIjTGKPYCq3keRZgNbshxtJ5k7H609OAAIZBgACYAF5VIerYoMcSln8JAQ")
+                await message.reply_sticker("CAACAgQAAx0CbQLuWAACg-hkKSsXHz2o_yAsAAG76qXiu-nCG1oAAiQNAAI7-lhTvahq-ENnhg0eBA")
                 await message.reply_photo(
                     photo=config.START_IMG_URL,
                     caption=_["start_2"].format(
