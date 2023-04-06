@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH", "")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://Dil:stkeditz122@cluster0.z47njau.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://@.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001828908632"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
 
@@ -23,7 +23,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/Sanki_Network")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv("GIT_TOKEN", None)getenv("MONGO_DB_URI","mongodb+srv://Dilmusic:stkeditz121@cluster0.3juq0j6.mongodb.net/?retryWrites=true&w=majoritymongodb+srv://Dilmusic:stkeditz121@cluster0.3juq0j6.mongodb.net/?retryWrites=true&w=majority")
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MR_YAMRAJ_XD")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Drishti_Education_Hub")
