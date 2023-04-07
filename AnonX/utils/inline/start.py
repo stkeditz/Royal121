@@ -24,10 +24,6 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
         ],
         [
-           InlineKeyboardButton(
-                text="🥀 Feelings 🥀", url=f"https://t.me/Yamraj_Feeling",
-            ),
-        [
             InlineKeyboardButton(
                 text="🥀 ᴍᴀɪɴᴛᴀɪɴᴇʀ 🥀", user_id=OWNER),
             InlineKeyboardButton(
@@ -51,10 +47,6 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="ʜᴇʟᴩ", callback_data="settings_back_helper"
             ),
         ],
-        [
-           InlineKeyboardButton(
-                text="🥀 Feelings 🥀", url=f"https://t.me/Yamraj_Feeling",
-            ),
         [
             InlineKeyboardButton(text="🥀 ᴍᴀɪɴᴛᴀɪɴᴇʀ 🥀", user_id=OWNER),
             InlineKeyboardButton(
