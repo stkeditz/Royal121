@@ -29,12 +29,8 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_GROUP
             ),
-        [
-           InlineKeyboardButton(
-                text="🥀 Feelings 🥀", url=f"https://t.me/Yamraj_Feeling",
-            ),
         ],
-             ]
+     ]
     return buttons
 
 
