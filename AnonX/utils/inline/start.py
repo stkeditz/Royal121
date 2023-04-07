@@ -69,7 +69,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                    text="❄️ ᴄʜᴀɴɴᴇʟ ❄️", url=config.UPSTREAM_REPO
+                    text="🥺 ɴᴇᴛᴡᴏʀᴋ 🥺", url=config.UPSTREAM_REPO
                 )
         ],
      ]
