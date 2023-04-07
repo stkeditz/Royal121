@@ -29,6 +29,14 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_GROUP
             ),
+        [
+            InlineKeyboardButton(
+                text="🥀 ғᴇᴇʟɪɴɢs 🥀",
+                url=f"https://t.me/YaMraJ_FeeLinG"
+            InlineKeyboardButton(
+                text="✨ʙᴏᴛ sᴜᴩᴩᴏʀᴛ ✨", 
+                url=f"https://t.me/SankiDiscuss"
+            ),
         ],
      ]
     return buttons
@@ -57,6 +65,15 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                     text="❄️ ᴄʜᴀɴɴᴇʟ ❄️", url=config.UPSTREAM_REPO
                 )
+        ],
+        [
+            InlineKeyboardButton(
+                text="🥀 ғᴇᴇʟɪɴɢs 🥀",
+                url=f"https://t.me/YaMraJ_FeeLinG"
+            InlineKeyboardButton(
+                text="✨ʙᴏᴛ sᴜᴩᴩᴏʀᴛ ✨", 
+                url=f"https://t.me/SankiDiscuss"
+            ),
         ],
      ]
     return buttons
