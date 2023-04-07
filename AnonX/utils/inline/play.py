@@ -51,7 +51,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="🥀 OWNER 🥀", url=f"https://t.me/SAMIRR_PATELL",
+                text="😎 OWNER 😎", url=f"https://t.me/MR_YAMRAJ_XD",
             ),
         ],
         [
@@ -101,7 +101,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="🥀 OWNER 🥀", url=f"https://t.me/SAMIRR_PATELL",
+                text="😎 OWNER 😎", url=f"https://t.me/MR_YAMRAJ_XD",
             ),
         ],
         [
@@ -144,7 +144,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="🥀 OWNER 🥀", url=f"https://t.me/SAMIRR_PATELL",
+                text="😎 OWNER 😎", url=f"https://t.me/MR_YAMRAJ_XD",
             ),
         ],
         [
@@ -175,7 +175,7 @@ def telegram_markup(_, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="🥀 OWNER 🥀", url=f"https://t.me/SAMIRR_PATELL",
+                text="😎 OWNER 😎", url=f"https://t.me/MR_YAMRAJ_XD",
             ),
         ],
         [
@@ -329,7 +329,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="🥀 OWNER 🥀", url=f"https://t.me/SAMIRR_PATELL",
+                text="😎 OWNER 😎", url=f"https://t.me/MR_YAMRAJ_XD",
             ),
         ],
         [
