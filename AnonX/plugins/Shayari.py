@@ -12,7 +12,7 @@ from strings import get_command
 
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-SHAYRI = [ " 🌺**बहुत अच्छा लगता है तुझे सताना और फिर प्यार से तुझे मनाना।**🌺 \n\n**🥀Bahut aacha lagta hai tujhe satana Aur fir pyar se tujhe manana.🥀** ",
+SHAYARI = [ " 🌺**बहुत अच्छा लगता है तुझे सताना और फिर प्यार से तुझे मनाना।**🌺 \n\n**🥀Bahut aacha lagta hai tujhe satana Aur fir pyar se tujhe manana.🥀** ",
            " 🌺**मेरी जिंदगी मेरी जान हो तुम मेरे सुकून का दुसरा नाम हो तुम।**🌺 \n\n**🥀Meri zindagi Meri jaan ho tum Mere sukoon ka Dusra naam ho tum.🥀** ",
            " 🌺**तुम मेरी वो खुशी हो जिसके बिना, मेरी सारी खुशी अधूरी लगती है।**🌺 \n\n**🥀**Tum Meri Wo Khushi Ho Jiske Bina, Meri Saari Khushi Adhuri Lagti Ha.🥀** ",
            " 🌺**काश वो दिन जल्दी आए,जब तू मेरे साथ सात फेरो में बन्ध जाए।**🌺 \n\n**🥀Kash woh din jldi aaye Jb tu mere sath 7 feron me bndh jaye.🥀** ",
@@ -53,22 +53,22 @@ SHAYRI = [ " 🌺**बहुत अच्छा लगता है तुझे
            " 🌺**सच्चा प्यार कहा किसी के नसीब में होता है. एसा प्यार कहा इस दुनिया में किसी को नसीब होता है.**🌺\n\n**🥀Sacha pyar kaha kisi ke nasib me hota hai esa pyar kahan is duniya me kisi ko nasib hota hai.🥀** " ]
 
 # Command
-SHAYRI_COMMAND = get_command("SHAYRI_COMMAND")
+SHAYARI_COMMAND = get_command("SHAYARI_COMMAND")
 
 @app.on_message(
-    filters.command(SHAYRI_COMMAND)
+    filters.command(SHAYARI_COMMAND)
     & filters.group
     & ~filters.edited & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_text(
-        text = random.choice(SHAYRI),
+        text = random.choice(SHAYARI),
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "✨𝚂𝚄𝙿𝙿𝙾𝚁𝚃✨", url=f"https://t.me/TG_FRIENDSS"),
+                        "✨sᴜᴘᴘᴏʀᴛ✨", url=f"https://t.me/SankiDiscuss"),
                     InlineKeyboardButton(
-                        "✨𝙾𝙵𝙵𝙸𝙲𝙴✨", url=f"https://t.me/VIP_CREATORS")
+                        "✨ᴏᴡɴᴇʀ✨", url=f"https://t.me/MR_YAMRAJ_XD")
                     
                 ]
             ]
@@ -76,19 +76,19 @@ async def help(client: Client, message: Message):
     )
 
 @app.on_message(
-    filters.command(SHAYRI_COMMAND)
+    filters.command(SHAYARI_COMMAND)
     & filters.private
     & ~filters.edited & filters.private & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_text(
-        text = random.choice(SHAYRI),
+        text = random.choice(SHAYARI),
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "✨𝚂𝚄𝙿𝙿𝙾𝚁𝚃✨", url=f"https://t.me/TG_FRIENDSS"),
+                        "✨sᴜᴘᴘᴏʀᴛ✨", url=f"https://t.me/SankiDiscuss"),
                     InlineKeyboardButton(
-                        "✨𝙾𝙵𝙵𝙸𝙲𝙴✨", url=f"https://t.me/VIP_CREATORS")
+                        "✨ᴏᴡɴᴇʀ✨", url=f"https://t.me/MR_YAMRAJ_XD")
                     
                 ]
             ]
