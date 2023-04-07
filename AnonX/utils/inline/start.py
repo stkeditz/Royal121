@@ -25,6 +25,13 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
+                text="🥀 Bgt 🥀", url=f"https://t.me/BikashGadgetsTech"),
+            InlineKeyboardButton(
+                text="✨ Bikash ✨", url=f"https://t.me/BikashHalder"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
                 text="🥀 ᴍᴀɪɴᴛᴀɪɴᴇʀ 🥀", user_id=OWNER),
             InlineKeyboardButton(
                 text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_GROUP
@@ -45,6 +52,13 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="ʜᴇʟᴩ", callback_data="settings_back_helper"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="🥀 Bgt 🥀", url=f"https://t.me/BikashGadgetsTech"),
+            InlineKeyboardButton(
+                text="✨ Bikash ✨", url=f"https://t.me/BikashHalder"
             ),
         ],
         [
