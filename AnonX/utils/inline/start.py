@@ -25,9 +25,9 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="🥀 ғᴇᴇʟɪɴɢs 🥀", url=f"https://t.me/Yamraj_Feeling"),
+                text="🥀 ғᴇᴇʟɪɴɢs 🥀", url=f"https://t.me/HELL_ROYALS"),
             InlineKeyboardButton(
-                text="✨ ʙᴏᴛ sᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/Sanki_Official"
+                text="✨ ʙᴏᴛ sᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/HELL_ROYALS"
             ),
         ],
         [
@@ -56,9 +56,9 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="🥀 ғᴇᴇʟɪɴɢs 🥀", url=f"https://t.me/Yamraj_Feeling"),
+                text="🥀 ғᴇᴇʟɪɴɢs 🥀", url=f"https://t.me/HELL_ROYALS"),
             InlineKeyboardButton(
-                text="✨ ʙᴏᴛ sᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/Sanki_Official"
+                text="✨ ʙᴏᴛ sᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/HELL_ROYALS"
             ),
         ],
         [
