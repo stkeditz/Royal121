@@ -16,7 +16,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI","")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001566918806"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6006313871").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5523532131").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
