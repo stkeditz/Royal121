@@ -13,7 +13,7 @@ API_HASH = getenv("API_HASH", "6f6d8b4d12eae7d1d4b2fdbec8e2d0a8")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI","")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001828908632"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001566918806"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6006313871").split()))
@@ -21,12 +21,12 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "6006313871").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/Sanki_Server")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/HELL_ROYALS")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MR_YAMRAJ_XD")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/THE_FRIEND_GROUP")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/HELL_ROYALS")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/HELL_ROYALS")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
